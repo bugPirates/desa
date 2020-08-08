@@ -1,4 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+
 .App {
+  font-family: 'Catamaran', sans-serif;
   text-align: center;
 }
 
