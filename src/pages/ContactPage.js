@@ -93,15 +93,21 @@ class ContactPage extends React.Component {
 
 
                         <Button className="d-inline-block" variant="primary" type="submit" disabled={this.state.disabled}>
-                            Kirim
+                            Kirim  
                         </Button>
 
 
                         {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
                         {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
                     </Form>
+                    
                 </Content>
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                  <strong>Jika tidak mempunyai E-mail</strong> bisa menggunakan Telp/WA 0853-3365-2099                  
+                </div>
             </div>
+            
+           
         );
     }
 
